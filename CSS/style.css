@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.image{
+width: 100%;
+height: 100vh;
+position: relative;
+display: flex
+}
+
+.photo-box{
+position: relative;
+width: 50%;
+height: 100%;
+
+}
+.image .photo-box::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    z-index: 1;
+    opacity: .4;
+}
+.image .photo-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-box{
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+width: 50%;
+
+height: 100%;
+
+background: #fff9e6;
+}
+.form-box{
+
+/* background: beige; */
+
+/* width: 368px; */
+}
+.form-box h2{
+
+font-size: 55px;
+
+text-transform: uppercase;
+
+text-shadow: aliceblue;
+
+text-decoration: underline;
+
+text-decoration-color: #d5736c;
+
+margin-bottom: 10px;
+}
+.user{
+
+margin-bottom: 10px;
+}
+.user label{
+
+font-size: 22px;
+}
+.user input{
+
+border: 1px solid black;
+
+padding: 10px 60px 10px 10px;
+
+border-radius: 10px;
+
+background: transparent;
+}
+.password{
+
+margin-bottom: 10px;
+}
+.password label{
+    
+font-size: 22px;
+}
+.password input{
+
+background: transparent;
+
+border: 1px solid black;
+
+padding: 10px 60px 10px 10px;
+
+border-radius: 10px;
+}
+.remember{
+
+margin-bottom: 10px;
+}
+
+.remember p{
+
+}
+.remember p input{
+
+}
+.sign-in{
+
+background-color: #e48787;
+
+/* overflow: hidden; */
+
+margin-bottom: 25px;
+}
+button{
+
+/* background-color: red; */
+
+border: 1px solid black;
+
+padding: 10px 182px 10px 10px;
+
+/* border-radius: 10px; */
+
+background: transparent;
+
+color: white;
+
+font-size: 15px;
+}
+.form p{
+
+}
+.form p a{
+
+}
+
+
+
+
+
+
+
+
+
